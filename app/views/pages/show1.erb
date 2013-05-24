@@ -1,0 +1,15 @@
+<%= javascript_include_tag 'jquery.number' %>
+<script>
+  $(document).ready(function(){ 
+    $("input.number").number(true,2)  
+  })
+</script>
+<p>
+number format with jquery-number
+<br/>
+<%=link_to 'https://github.com/teamdf/jquery-number/','https://github.com/teamdf/jquery-number/',:target=>'_blank'%>
+</p>
+
+<p>
+<input type="text" class="number" value="123.45">
+</p>
